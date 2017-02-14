@@ -61,9 +61,7 @@ CREATE TABLE Borrower
 	(CardNo bigint PRIMARY KEY NOT NULL,
 	 Name varchar(50) NULL,
 	 Address nvarchar(80) NULL,
-	 Phone varchar(15) NULL,
-	 NumberOfBooks int NULL,
-	 CheckedOutBooks binary NOT NULL)
+	 Phone varchar(15) NULL)	 
 GO
 
 
